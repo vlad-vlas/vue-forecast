@@ -1,0 +1,38 @@
+body {
+  background-image: url(../img/weather24.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header {
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.btn-search {
+  background-image: linear-gradient(
+    to right,
+    rgb(20, 139, 139),
+    rgb(145, 134, 229)
+  );
+}
+
+.searchbar {
+  background: transparent;
+  border-radius: 12px;
+}
+
+.input {
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 134, 229),
+    rgba(41, 155, 155, 0.993)
+  );
+}
+
+.searchbox {
+  background-color: rgba(0, 0, 0, 0.3);
+}
